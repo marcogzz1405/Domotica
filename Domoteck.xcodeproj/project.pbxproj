@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F78700ADEBA224E6E0BDBA /* Pods_Domoteck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C58108396A1C7608389905 /* Pods_Domoteck.framework */; };
+		880AE5CD21B9A6650087DB2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880AE5CC21B9A6650087DB2E /* AppDelegate.swift */; };
+		880AE5CF21B9A6650087DB2E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880AE5CE21B9A6650087DB2E /* LoginController.swift */; };
+		880AE5D221B9A6650087DB2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880AE5D021B9A6650087DB2E /* Main.storyboard */; };
+		880AE5D421B9A6690087DB2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880AE5D321B9A6690087DB2E /* Assets.xcassets */; };
+		880AE5D721B9A6690087DB2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880AE5D521B9A6690087DB2E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		880AE5C921B9A6650087DB2E /* Domoteck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Domoteck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880AE5CC21B9A6650087DB2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		880AE5CE21B9A6650087DB2E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = ../LoginController.swift; sourceTree = "<group>"; };
+		880AE5D121B9A6650087DB2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880AE5D321B9A6690087DB2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880AE5D621B9A6690087DB2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880AE5D821B9A6690087DB2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F0D7A35790E5F458AE8DA9 /* Pods-Domoteck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domoteck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Domoteck/Pods-Domoteck.debug.xcconfig"; sourceTree = "<group>"; };
+		B4C58108396A1C7608389905 /* Pods_Domoteck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Domoteck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE98028DF9DB0A2E0A434B10 /* Pods-Domoteck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domoteck.release.xcconfig"; path = "Pods/Target Support Files/Pods-Domoteck/Pods-Domoteck.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880AE5C621B9A6650087DB2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F78700ADEBA224E6E0BDBA /* Pods_Domoteck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528D0F01C005A8C87203DB72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C58108396A1C7608389905 /* Pods_Domoteck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880AE5C021B9A6640087DB2E = {
+			isa = PBXGroup;
+			children = (
+				880AE5CB21B9A6650087DB2E /* Domoteck */,
+				880AE5CA21B9A6650087DB2E /* Products */,
+				FD159C05811469782C8E1BCF /* Pods */,
+				528D0F01C005A8C87203DB72 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		880AE5CA21B9A6650087DB2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880AE5C921B9A6650087DB2E /* Domoteck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880AE5CB21B9A6650087DB2E /* Domoteck */ = {
+			isa = PBXGroup;
+			children = (
+				880AE5DE21B9E4D90087DB2E /* Controllers */,
+				880AE5CC21B9A6650087DB2E /* AppDelegate.swift */,
+				880AE5D021B9A6650087DB2E /* Main.storyboard */,
+				880AE5D321B9A6690087DB2E /* Assets.xcassets */,
+				880AE5D521B9A6690087DB2E /* LaunchScreen.storyboard */,
+				880AE5D821B9A6690087DB2E /* Info.plist */,
+			);
+			path = Domoteck;
+			sourceTree = "<group>";
+		};
+		880AE5DE21B9E4D90087DB2E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				880AE5CE21B9A6650087DB2E /* LoginController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FD159C05811469782C8E1BCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93F0D7A35790E5F458AE8DA9 /* Pods-Domoteck.debug.xcconfig */,
+				BE98028DF9DB0A2E0A434B10 /* Pods-Domoteck.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880AE5C821B9A6650087DB2E /* Domoteck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880AE5DB21B9A6690087DB2E /* Build configuration list for PBXNativeTarget "Domoteck" */;
+			buildPhases = (
+				D0FCC4B4EE59006122C2C421 /* [CP] Check Pods Manifest.lock */,
+				880AE5C521B9A6650087DB2E /* Sources */,
+				880AE5C621B9A6650087DB2E /* Frameworks */,
+				880AE5C721B9A6650087DB2E /* Resources */,
+				5A261ED133EF65F3582B4698 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Domoteck;
+			productName = Domoteck;
+			productReference = 880AE5C921B9A6650087DB2E /* Domoteck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880AE5C121B9A6640087DB2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Domoteck;
+				TargetAttributes = {
+					880AE5C821B9A6650087DB2E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 880AE5C421B9A6640087DB2E /* Build configuration list for PBXProject "Domoteck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880AE5C021B9A6640087DB2E;
+			productRefGroup = 880AE5CA21B9A6650087DB2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880AE5C821B9A6650087DB2E /* Domoteck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880AE5C721B9A6650087DB2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880AE5D721B9A6690087DB2E /* LaunchScreen.storyboard in Resources */,
+				880AE5D421B9A6690087DB2E /* Assets.xcassets in Resources */,
+				880AE5D221B9A6650087DB2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A261ED133EF65F3582B4698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Domoteck/Pods-Domoteck-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Domoteck/Pods-Domoteck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0FCC4B4EE59006122C2C421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Domoteck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880AE5C521B9A6650087DB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880AE5CF21B9A6650087DB2E /* LoginController.swift in Sources */,
+				880AE5CD21B9A6650087DB2E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		880AE5D021B9A6650087DB2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880AE5D121B9A6650087DB2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880AE5D521B9A6690087DB2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880AE5D621B9A6690087DB2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880AE5D921B9A6690087DB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		880AE5DA21B9A6690087DB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880AE5DC21B9A6690087DB2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F0D7A35790E5F458AE8DA9 /* Pods-Domoteck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Domoteck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = magg.domoteck.Domoteck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		880AE5DD21B9A6690087DB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE98028DF9DB0A2E0A434B10 /* Pods-Domoteck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Domoteck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = magg.domoteck.Domoteck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880AE5C421B9A6640087DB2E /* Build configuration list for PBXProject "Domoteck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880AE5D921B9A6690087DB2E /* Debug */,
+				880AE5DA21B9A6690087DB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880AE5DB21B9A6690087DB2E /* Build configuration list for PBXNativeTarget "Domoteck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880AE5DC21B9A6690087DB2E /* Debug */,
+				880AE5DD21B9A6690087DB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 880AE5C121B9A6640087DB2E /* Project object */;
+}

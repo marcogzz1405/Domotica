@@ -1,0 +1,6 @@
+framework module Pods_Domoteck {
+  umbrella header "Pods-Domoteck-umbrella.h"
+
+  export *
+  module * { export * }
+}
